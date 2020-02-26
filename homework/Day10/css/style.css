@@ -1,0 +1,137 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap");
+
+html {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  font-family: "Ubuntu" -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Cantarell, "Helvetica Neue", sans-serif;
+  height: 600px;
+  width: 300px;
+  background-color: #f8f8f8;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.top .signin {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.user__data {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user__data .user__email-input,
+.user__data .user__password-input {
+  height: 40px;
+  width: 250px;
+  border-radius: 15px;
+  border: 1px solid #f4f4f4;
+  padding: 10px;
+}
+
+.user__data .forgot {
+  font-size: 13px;
+  color: #e27380;
+  margin-left: 150px;
+}
+
+.user__data .rememberme {
+  font-size: 13px;
+  opacity: 0.6;
+  margin-right: 150px;
+}
+
+.signin__btns {
+  height: 140px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.signin__btns .signin-btn {
+  width: 250px;
+  height: 35px;
+  background-color: #e2283e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f4f4f4;
+  border-radius: 17.5px;
+  font-size: 13px;
+}
+
+.signin__btns .or-msg {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.signin__btns .social-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signin__btns .facebook-btn,
+.signin__btns .twitter-btn {
+  width: 120px;
+  height: 35px;
+  border-radius: 17.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f4f4f4;
+  font-size: 13px;
+}
+
+.signin__btns .facebook-btn {
+  background-color: #475a95;
+}
+
+.signin__btns .twitter-btn {
+  background-color: #5da1f2;
+}
+
+.user__help {
+  margin-bottom: 60px;
+  font-size: 13px;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.user__help .newaccount-msg,
+.user__help .newpassword-msg {
+  opacity: 0.6;
+}
+
+.user__help .newaccount-btn,
+.user__help .newpassword-btn {
+  color: #e2283e;
+}

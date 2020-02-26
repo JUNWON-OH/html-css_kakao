@@ -1,0 +1,82 @@
+.user {
+  background-color: #ffffff;
+  width: 530px;
+  height: 550px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user .user__images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user .background {
+  width: 530px;
+  height: 220px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: -61px;
+}
+.user .main {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 2px solid #ffffff;
+}
+
+.user .user__inf {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user .user__name {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.user .user__job {
+  font-size: 20px;
+  opacity: 0.6;
+}
+
+.user .user__select {
+  width: 450px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+.user .follow-btn {
+  width: 200px;
+  height: 60px;
+  background-color: #6a75ff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ddddf8;
+}
+
+.user .message-btn {
+  width: 200px;
+  height: 60px;
+  background-color: #eaecff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #8e96ff;
+}

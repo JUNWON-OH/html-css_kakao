@@ -1,0 +1,78 @@
+.airpods {
+  background-color: #ffffff;
+  width: 530px;
+  height: 600px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.airpods .airpods__column:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.airpods .airpods__img {
+  margin-top: 65px;
+  height: 250px;
+  width: 200px;
+}
+
+.airpods .airpods__column:nth-child(2) {
+  display: flex;
+  width: 450px;
+  height: 100px;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.airpods .airpods__name {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.airpods .airpods__contents {
+  opacity: 0.6;
+  font-size: 20px;
+}
+
+.airpods .airpods__column:nth-child(3) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 475px;
+  height: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.airpods .airpods__price {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.airpods .airpods__review {
+  display: flex;
+  align-items: center;
+}
+
+.airpods .airpods__review i {
+  font-size: 30px;
+}
+
+.airpods .fas {
+  color: #febd52;
+}
+
+.airpods .fas:nth-child(5) {
+  color: #d7dee2;
+}
+
+.airpods .review__count {
+  font-size: 20px;
+  opacity: 0.6;
+}

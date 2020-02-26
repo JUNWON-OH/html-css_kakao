@@ -9,6 +9,7 @@
       integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
@@ -39,7 +40,7 @@
     </header>
     <main class="friends">
       <header class="friends__header">
-        <div class="friends__friend friend friend--lg">
+        <div class="friends__friend friend ">
           <div class="friend__column">
             <img src="images/mypicture.png" class="g-avatar friend__avatar" />
             <div class="friend__content">
@@ -52,32 +53,41 @@
             </div>
           </div>
           <div class="friend__column">
-            <span class="now-listening">
-              Closer(Feat.Jennie A.)-Lemaitre
-            </span>
-            <i class="far fa-play-circle"></i>
+            <div class="now-listening">
+              <span>
+                Closer(Feat.Jennie A.)-Lemaitre
+                <i class="far fa-play-circle"></i>
+              </span>
+            </div>
           </div>
         </div>
       </header>
       <div class="friends__plus">
         <h5 class="friends__title">Plus Friend</h5>
-        <div class="friend__column">
-          <img src="images/plusfriend.png" class="plus__avatar g-avatar" />
-          <div class="friend__content">
-            <span class="friend__name">Plus Friend</span>
+        <div class="friends__friend friend">
+          <div class="friend__column">
+            <img
+              src="images/plusfriend.png"
+              class="plus__avatar friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">
+                Plus Friend
+              </span>
+            </div>
           </div>
-        </div>
-        <div class="friend__column">
-          <i class="fas fa-chevron-right"></i>
+          <div class="friend__column">
+            <i class="fas fa-chevron-right"></i>
+          </div>
         </div>
       </div>
       <ul class="friends__list">
         <h5 class="friends__title">
-          Friends
+          Friends 14
         </h5>
-        <li class="friends__friend friend">
+        <li class="friends__friend friend friend--lg">
           <div class="friend__column">
-            <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+            <img src="images/avatar.jpg" class="friend__avatar" />
             <div class="friend__content">
               <span class="friend__name">
                 Taein
@@ -88,12 +98,13 @@
             </div>
           </div>
           <div class="friend__column">
-            <span class="now-listening">
-              From The Country Of Morning-DoHyung Lim
-            </span>
-            <i class="far fa-play-circle"></i>
+            <div class="now-listening">
+              <span>
+                From The Country...-DoHyung Lim
+                <i class="far fa-play-circle"></i>
+              </span>
+            </div>
           </div>
-          <div class="friend__column"></div>
         </li>
       </ul>
     </main>
@@ -106,6 +117,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="far fa-comment"></i>
           </a>
         </li>
@@ -121,5 +133,8 @@
         </li>
       </ul>
     </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small</span>
+    </div>
   </body>
 </html>

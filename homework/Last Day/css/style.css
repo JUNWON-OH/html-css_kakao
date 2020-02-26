@@ -1,0 +1,74 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap");
+
+body {
+  background-color: #f8f8f8;
+}
+
+.camera {
+  position: relative;
+  width: 100%;
+}
+
+.camera-bkg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 500px;
+  height: 500px;
+  background-image: url("../img/bkg.png");
+}
+
+.camera-popup {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 500px;
+  height: 500px;
+  background-color: #283949;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Ubuntu";
+  /* transition: transform 0.3s ease-in, opacity 0.3s ease-in; */
+}
+
+.camera-popup .head {
+  font-size: 40px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
+.camera-popup .content {
+  font-size: 20px;
+  color: #ea4463;
+  margin-bottom: 50px;
+}
+
+.camera-popup .btn {
+  background-color: #ea4463;
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 15px 20px;
+}
+
+@keyframes popup {
+  from {
+    opacity: 0;
+    transform: none;
+  }
+  to {
+    opacity: 1;
+    transform: translate(50px, 50px);
+  }
+}
+
+.camera-popup:hover {
+  /* transform: translate(50px, 50px);
+  opacity: 1; -> if I want smooth aniamtion after hover, I have to use translate :(*/
+  animation: popup 0.3s ease-in forwards;
+}

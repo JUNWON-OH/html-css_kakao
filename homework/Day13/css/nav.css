@@ -1,0 +1,19 @@
+.nav {
+  width: 100%;
+}
+
+.nav .nav__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.nav .nav__list i {
+  font-size: 20px;
+}
+
+.nav .nav__list-item:nth-child(1) i {
+  color: #6aa3cf;
+}

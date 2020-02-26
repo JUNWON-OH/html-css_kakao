@@ -1,0 +1,68 @@
+.profile {
+  width: 100%;
+}
+
+.profile .user-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile .user__name {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #4092db;
+}
+
+.profile .user__location {
+  font-size: 15px;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+
+.profile .btns,
+.profile .user__status {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile .btn {
+  width: 120px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.profile .follow-btn {
+  background-color: #ffffff;
+  color: #797979;
+}
+
+.profile .message-btn {
+  background-color: #2799fa;
+  color: #ffffff;
+}
+
+.profile .data {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0.7;
+}

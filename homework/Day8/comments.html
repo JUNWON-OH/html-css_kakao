@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv"
+      crossorigin="anonymous"
+    />
+    <title>Instagram</title>
+  </head>
+  <body>
+    <main class="profile">
+      <a href="index.html">
+        <span class="user__icon user__icon-left">
+          <i class="fas fa-arrow-left fa-2x"></i>
+        </span>
+      </a>
+      <div class="profile__user">
+        <div class="user__column">
+          <img src="images/Sam.png" class="user__img g-avatar" />
+          <div class="user__contents">
+            <span class="user__name">
+              Sam Martin
+            </span>
+            <span class="user__timestamp">
+              5 min
+            </span>
+          </div>
+        </div>
+        <div class="user__column">
+          <span class="user__icon user__icon-right">
+            <i class="fas fa-ellipsis-h"></i>
+          </span>
+        </div>
+      </div>
+      <div class="profile__img">
+        <img src="images/sam_img.png" class="profile__img-main" />
+      </div>
+      <div class="profile__reactions">
+        <div class="reactions__column">
+          <span class="heart__icon">
+            <i class="far fa-heart"></i>
+          </span>
+          <span class="heart__count">
+            2,515
+          </span>
+        </div>
+        <div class="reactions__column">
+          <span class="comment__icon">
+            <i class="far fa-comment-alt"></i>
+          </span>
+          <spna class="comment__count">
+            350
+          </spna>
+        </div>
+        <div class="reactions__column">
+          <span class="reaction__icon">
+            <i class="far fa-bookmark"></i>
+          </span>
+        </div>
+      </div>
+    </main>
+    <ul class="comments__list">
+      <li class="comments__comment comment">
+        <div class="comment__column">
+          <img src="images/top2.png" class="g-avatar comment__avatar" />
+          <div class="comment__content">
+            <span class="comment__name">
+              Angel
+            </span>
+            <span class="comment__status">
+              Looks so good that I can't control my self over this.
+            </span>
+            <span class="comment__icons">
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share"></i>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="comments__comment comment">
+        <div class="comment__column">
+          <img src="images/top3.png" class="g-avatar comment__avatar" />
+          <div class="comment__content">
+            <span class="comment__name">
+              Charlie
+            </span>
+            <span class="comment__status">
+              Waiting more from you.
+            </span>
+            <span class="comment__icons">
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share"></i>
+            </span>
+          </div>
+        </div>
+      </li>
+      <li class="comments__comment comment">
+        <div class="comment__column">
+          <img src="images/top4.png" class="g-avatar comment__avatar" />
+          <div class="comment__content">
+            <span class="comment__name">
+              Angelina Martin
+            </span>
+            <span class="comment__status">
+              New collection is great!!!
+            </span>
+            <span class="comment__icons">
+              <i class="far fa-heart"></i>
+              <i class="fas fa-share"></i>
+            </span>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="comment__write">
+      <div class="comment__write-column">
+        <img src="images/top1.png" class="user__img-mine" />
+      </div>
+      <div class="comment__write-column">
+        <input
+          type="text"
+          placeholder="Add a comment"
+          class="comment__write-input"
+        />
+      </div>
+      <div class="comment__write-column">
+        <span class="comment__write-icon">
+          <i class="far fa-paper-plane"></i>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>

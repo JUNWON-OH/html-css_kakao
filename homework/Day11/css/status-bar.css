@@ -1,0 +1,27 @@
+.status-bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top: 0px;
+  left: 0px;
+  padding: 20px 30px;
+  z-index: 1;
+}
+
+.status-bar .status__first-line,
+.status-bar .status__second-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status-bar .status__first-line {
+  margin-bottom: 30px;
+}
+
+.status-bar .status__second-line i {
+  font-size: 25px;
+}

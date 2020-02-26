@@ -1,0 +1,35 @@
+.other .other__head {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.other .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.box .contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.other .name {
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
+.other .kinds {
+  font-size: 13px;
+  opacity: 0.7;
+}
+
+.other i {
+  color: #e43b4d;
+}

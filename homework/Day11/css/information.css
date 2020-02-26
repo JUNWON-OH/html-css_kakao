@@ -1,0 +1,101 @@
+.information {
+  margin-bottom: 140px;
+  margin-top: -200px;
+  padding: 0px 30px;
+}
+
+.information .information__head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.information .head-text {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.information .heart-box {
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.information .heart-box i {
+  color: #ff2239;
+  font-size: 17px;
+}
+
+.information .information__location {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.information .information__location i {
+  color: #144cff;
+  margin-right: 10px;
+}
+
+.information .location-text {
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.information .information__rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.information .stars {
+  display: flex;
+  align-items: center;
+}
+
+.information .stars__star {
+  color: #ffbc00;
+  margin-right: 5px;
+}
+
+.information .stars__rating {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.information .distance {
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.information .information__explanation {
+  display: block;
+  margin-top: 20px;
+}
+
+.information .overview {
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.information .explanation-box {
+  margin-top: 15px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  opacity: 0.6;
+  line-height: 1.5;
+}
+
+.information .readmore {
+  font-size: 18px;
+  color: #144cff;
+  font-weight: 400;
+}
