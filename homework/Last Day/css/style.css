@@ -31,7 +31,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: "Ubuntu";
-  /* transition: transform 0.3s ease-in, opacity 0.3s ease-in; */
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
 }
 
 .camera-popup .head {
@@ -68,7 +68,6 @@ body {
 }
 
 .camera-popup:hover {
-  /* transform: translate(50px, 50px);
-  opacity: 1; -> if I want smooth aniamtion after hover, I have to use translate :(*/
-  animation: popup 0.3s ease-in forwards;
+  transform: translate(50px, 50px);
+  opacity: 1;
 }
